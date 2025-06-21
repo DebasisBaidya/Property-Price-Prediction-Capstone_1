@@ -13,6 +13,7 @@
 </p>
 
 Welcome to my **Property Price Prediction** capstone project! 🎓  
+
 This project aims to predict property prices using Machine Learning based on various housing-related features. It's a complete end-to-end regression pipeline created as part of my Data Science training journey. 🚀
 
 ---
