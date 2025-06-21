@@ -15,6 +15,8 @@
 Welcome to my **Property Price Prediction** capstone project! 🎓  
 This project aims to predict property prices using Machine Learning based on various housing-related features. It's a complete end-to-end regression pipeline created as part of my Data Science training journey. 🚀
 
+---
+
 ## 🎯 Goal
 
 To accurately predict the **property price** based on multiple input features like area, location, number of bedrooms, and more, using the best-performing ML model.
@@ -76,8 +78,7 @@ It contains features like:
 
 ## 🛠️ Workflow Overview
 
-1. **🧹 Data Preprocessing -> Data Cleaning & Exploration**
-
+### 1. 🧹 Data Preprocessing
 - Cleaned missing values (e.g., `Alley`, `PoolQC`, `BoundaryFeatures`)
 - Handled outliers, and explored the dataset through visualizations 📊
 - Label encoding & ordinal encoding where needed
@@ -85,34 +86,34 @@ It contains features like:
 - Feature scaling using `StandardScaler`
 - Feature selection using PCA (Principal Component Analysis)
 
-
-2. **📊 Exploratory Data Analysis**
-
-Used various visualizations to explore:
-
+### 2. 📊 Exploratory Data Analysis
 - Distribution of target variable (`PropPrice`)
 - Correlation heatmaps 🔥
 - Boxplots & scatterplots for key predictors
 - Property zones & street types impact on pricing
 
-3. **Feature Engineering**  
-   - Extracted number of rooms from `size`
-   - Converted `total_sqft` to numeric using logic
-   - Applied one-hot encoding to categorical variables
+### 3. 🔧 Feature Engineering
+- Extracted number of rooms from `size`
+- Converted `total_sqft` to numeric using logic
+- Applied one-hot encoding to categorical variables
 
-4. **Model Training & Evaluation**  
-   - Trained and compared 4 regression models
-   - Evaluated using R² Score
-   - XGBoost gave the best performance ✅
+### 4. 🤖 Model Training & Evaluation
+- Trained and compared 4 regression models
+- Evaluated using R² Score
+- XGBoost gave the best performance ✅
 
-5. **Model Exporting**  
-   - Saved trained model using `joblib` for future deployment
+### 5. 💾 Model Exporting
+- Saved trained model using `joblib` for future deployment
 
 ---
 
-## 📂 File Structure
+## 📁 File Structure
 
-📁 Capstone_Project_Property-Price-Prediction.ipynb ← Main Jupyter notebook
+```
+
+📦 Capstone\_Project\_Property-Price-Prediction.ipynb  ← Main Jupyter notebook
+
+```
 
 ---
 
@@ -121,7 +122,7 @@ Used various visualizations to explore:
 The following models were implemented and compared:
 
 - 📏 Linear Regression  
-- 🌲 Decision Tree Regressor  
+- 🌳 Decision Tree Regressor  
 - 🌲 Random Forest Regressor  
 - ⚡ XGBoost Regressor  
 - 📉 Ridge & Lasso Regression  
@@ -130,24 +131,24 @@ The following models were implemented and compared:
 
 ### ✅ Evaluation Metrics
 
-- Mean Absolute Error (MAE)  
-- Mean Squared Error (MSE)  
-- Root Mean Squared Error (RMSE)  
-- R² Score
+- 📐 Mean Absolute Error (MAE)  
+- 🧮 Mean Squared Error (MSE)  
+- 📉 Root Mean Squared Error (RMSE)  
+- 📊 R² Score
 
 ---
 
 ## 🧪 Results & Insights
 
-- Best model: **[Insert best-performing model from notebook]**
-- R² Score: **[Insert actual R² score from notebook]**
-- Top features influencing price: **[e.g., GrLivArea, YearBuilt, GarageArea, etc.]**
+- **Best model**: XGBoost Regressor  
+- **R² Score**: *[Insert R² score here]*  
+- **Top features influencing price**: *[e.g., PropertySize, GarageArea, Amenities]*
 
 ---
 
 ## 💾 Model Saving
 
-The final model was saved using `joblib` for future use and deployment.
+The final model was saved using `joblib` for deployment or inference in a production pipeline.
 
 ---
 
@@ -158,17 +159,15 @@ With 11+ years of experience in the MIS domain, I am now transitioning into the 
 
 📫 Feel free to connect:
 
-- 🌐 [LinkedIn](#)
-- 💻 [GitHub](#)
+- 🌐 [LinkedIn](https://www.linkedin.com/in/debasisbaidya)  
+- 💻 [GitHub](#)  
 - 🔗 [Portfolio / Streamlit App](#)
 
 ---
 
 ## 🚀 Future Improvements
 
-- Streamlit-based web app for interactive predictions  
-- Add geolocation-based insights  
-- Hyperparameter optimization with advanced tuning  
-- Use CatBoost or LightGBM for performance boosting
-
----
+- Build a **Streamlit web app** for interactive predictions  
+- Integrate **geolocation-based insights**  
+- Apply advanced **hyperparameter optimization**  
+- Experiment with **CatBoost** and **LightGBM**
