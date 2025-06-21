@@ -1,19 +1,23 @@
 # 🏡 Property Price Prediction – Capstone Project
 
 <p align="center">
-  <img src="https://img.shields.io/badge/pandas-Used-blue?logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/numpy-Used-blue?logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/matplotlib-Used-blue?logo=matplotlib&logoColor=white" />
-  <img src="https://img.shields.io/badge/seaborn-Used-blue?logo=seaborn&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-Used-blue?logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/xgboost-Used-blue?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/joblib-Used-blue?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/warnings-Used-lightgrey" />
-  <img src="https://img.shields.io/badge/math-Used-lightgrey" />
+  <img src="https://img.shields.io/badge/pandas-Used-0A74DA?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/numpy-Used-4D77CF?logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/matplotlib-Used-007ACC?logo=matplotlib&logoColor=white" />
+  <img src="https://img.shields.io/badge/seaborn-Used-2D3E50?logo=seaborn&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-Used-F7931E?logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/xgboost-Used-FF6600?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/joblib-Used-13AA52?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/warnings-Used-B0B0B0" />
+  <img src="https://img.shields.io/badge/math-Used-8E8E8E" />
 </p>
 
 Welcome to my **Property Price Prediction** capstone project! 🎓  
 This project aims to predict property prices using Machine Learning based on various housing-related features. It's a complete end-to-end regression pipeline created as part of my Data Science training journey. 🚀
+
+## 🎯 Goal
+
+To accurately predict the **property price** based on multiple input features like area, location, number of bedrooms, and more, using the best-performing ML model.
 
 ---
 
@@ -70,17 +74,19 @@ It contains features like:
 
 ---
 
-## 🧹 Data Preprocessing
+## 🛠️ Workflow Overview
 
-- Handled missing values (e.g., `Alley`, `PoolQC`, `BoundaryFeatures`)
+1. **🧹 Data Preprocessing -> Data Cleaning & Exploration**
+
+- Cleaned missing values (e.g., `Alley`, `PoolQC`, `BoundaryFeatures`)
+- Handled outliers, and explored the dataset through visualizations 📊
 - Label encoding & ordinal encoding where needed
 - One-hot encoding for nominal categorical variables
 - Feature scaling using `StandardScaler`
 - Feature selection using PCA (Principal Component Analysis)
 
----
 
-## 📊 Exploratory Data Analysis
+2. **📊 Exploratory Data Analysis**
 
 Used various visualizations to explore:
 
@@ -88,6 +94,25 @@ Used various visualizations to explore:
 - Correlation heatmaps 🔥
 - Boxplots & scatterplots for key predictors
 - Property zones & street types impact on pricing
+
+3. **Feature Engineering**  
+   - Extracted number of rooms from `size`
+   - Converted `total_sqft` to numeric using logic
+   - Applied one-hot encoding to categorical variables
+
+4. **Model Training & Evaluation**  
+   - Trained and compared 4 regression models
+   - Evaluated using R² Score
+   - XGBoost gave the best performance ✅
+
+5. **Model Exporting**  
+   - Saved trained model using `joblib` for future deployment
+
+---
+
+## 📂 File Structure
+
+📁 Capstone_Project_Property-Price-Prediction.ipynb ← Main Jupyter notebook
 
 ---
 
@@ -98,7 +123,7 @@ The following models were implemented and compared:
 - 📏 Linear Regression  
 - 🌲 Decision Tree Regressor  
 - 🌲 Random Forest Regressor  
-- 🚀 XGBoost Regressor  
+- ⚡ XGBoost Regressor  
 - 📉 Ridge & Lasso Regression  
 - 🔍 GridSearchCV for hyperparameter tuning  
 - 📊 PCA for dimensionality reduction
