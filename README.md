@@ -155,13 +155,26 @@ The final model was saved using `joblib` for deployment or inference in a produc
 ## 🙋‍♂️ About Me
 
 Hi, I’m **Debasis Baidya** from Kolkata 👋  
-With 11+ years of experience in the MIS domain, I am now transitioning into the world of **Data Science**.
+With **11+ years** of experience in the MIS domain, I am now transitioning into the world of **Data Science**.
+- Currenty Working as Senior MIS Analyst | Data Science Intern 
 
-📫 Feel free to connect:
+✅ 80%+ automation of manual processes at my workplace  
+📊 Skilled in Power BI, Python, SQL, ML, DL, NLP, Google Apps Script, Google Site  
+<p align="left">
+  📫 <strong>Connect with me:</strong>&nbsp;
 
-- 🌐 [LinkedIn](https://www.linkedin.com/in/debasisbaidya)  
-- 💻 [GitHub](#)  
-- 🔗 [Portfolio / Streamlit App](#)
+  <a href="https://www.linkedin.com/in/debasisbaidya">
+    <img src="https://img.shields.io/badge/LinkedIn-View_Profile-blue?logo=linkedin&logoColor=white" />
+  </a>
+
+  <a href="mailto:speak2debasis@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-Mail_Me-red?logo=gmail&logoColor=white" />
+  </a>
+
+  <a href="https://api.whatsapp.com/send?phone=918013316086&text=Hi%20Debasis!">
+    <img src="https://img.shields.io/badge/WhatsApp-Message-green?logo=whatsapp&logoColor=white" />
+  </a>
+</p>
 
 ---
 
