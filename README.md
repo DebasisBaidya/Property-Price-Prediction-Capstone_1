@@ -141,7 +141,7 @@ The following models were implemented and compared:
 
 ## 🧪 Results & Insights
 
-- **Best model**: Randome Forest Regressor [later improved with Hyperparameter Tuning using XGBoost]
+- **Best model**: Random Forest Regressor [later improved with Hyperparameter Tuning using XGBoost]
 - **R² Score**: *90.07%*  
 - **Top features influencing price**: *[e.g., PropertySize, GarageArea, Amenities]*
 
