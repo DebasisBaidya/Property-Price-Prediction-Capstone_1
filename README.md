@@ -112,7 +112,7 @@ It contains features like:
 
 ```
 
-📦 Capstone\_Project\_Property-Price-Prediction.ipynb  ← Main Jupyter notebook
+📦 Capstone\Project\Property-Price-Prediction.ipynb  ← Main Jupyter notebook
 
 ```
 
@@ -141,15 +141,15 @@ The following models were implemented and compared:
 
 ## 🧪 Results & Insights
 
-- **Best model**: XGBoost Regressor  
-- **R² Score**: *[Insert R² score here]*  
+- **Best model**: Randome Forest Regressor [later improved with Hyperparameter Tuning using XGBoost]
+- **R² Score**: *90.07%*  
 - **Top features influencing price**: *[e.g., PropertySize, GarageArea, Amenities]*
 
 ---
 
 ## 💾 Model Saving
 
-The final model was saved using `joblib` for deployment or inference in a production pipeline.
+The final model 'property_price_model.pkl' was saved using `joblib` for deployment or inference in a production pipeline.
 
 ---
 
